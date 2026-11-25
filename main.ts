@@ -217,7 +217,7 @@ function usesStockPunchline(text: string): boolean {
  * Words that carry a surprise turn — the second half of the joke
  * contradicting or re-framing the first half. A turn only counts
  * when it lands late: the punch must sit inside the final six
- * words.
+ * words, otherwise the line peaks early and then keeps talking.
  */const TWIST_WORDS = [
   "loop is closed",
   "i am not",
